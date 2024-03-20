@@ -1,0 +1,20 @@
+{
+  "name": "kmoral-newsletter",
+  "version": "1.0.0",
+  "description": "Simple Newsletter app using gmail",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Moralist",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "nodemailer": "^6.9.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
